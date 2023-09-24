@@ -1,0 +1,805 @@
+CRITICAL - 2021-12-21 01:17:18 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\login.php(33): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\login->auth()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 01:28:19 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pesanan/sidebar')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pesanan/sidebar')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 01:29:07 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pesanan/sidebar')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pesanan/sidebar')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 01:29:08 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pesanan/sidebar')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pesanan/sidebar')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 01:29:10 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pesanan/sidebar')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pesanan/sidebar')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 01:30:40 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 01:55:30 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 01:57:20 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 01:57:22 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 01:57:37 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 01:57:48 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 01:58:23 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 01:58:34 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 01:59:53 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 02:00:41 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 02:00:46 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 02:01:01 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 02:22:14 --> Call to undefined function App\Controllers\with()
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-21 02:22:39 --> Call to undefined function App\Controllers\with()
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-21 02:24:56 --> site_url(): Argument #2 ($scheme) must be of type ?string, array given, called in C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php on line 58
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(58): site_url('tampilUser', Array)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->simpanData()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 02:56:48 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 02:58:04 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 02:58:09 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 02:58:17 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 209)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 03:01:58 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 03:02:07 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 03:05:19 --> Class "App\Controllers\pesananModel" not found
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-21 03:05:32 --> Class "App\Controllers\pesananModel" not found
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-21 03:57:56 --> Undefined variable $kon
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 174)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:03:29 --> Unmatched '}'
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 05:03:40 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 05:04:24 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 174)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:05:34 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:05:35 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:08:02 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:08:09 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:11:23 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:12:40 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:12:42 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:42:57 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:42:58 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:42:59 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:43:01 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:43:03 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:43:43 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 05:44:05 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pesanan/sidebar')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pesanan/sidebar')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 05:44:20 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\pertemuan5\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pertemuan5\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pesa...')
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pesa...')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(779): App\Controllers\Pesanan->__construct()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 06:02:12 --> Undefined variable $makanModel
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 06:02:15 --> Undefined variable $makanModel
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 06:02:56 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 06:02:58 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 06:04:48 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 06:05:07 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 06:05:40 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 06:05:58 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 06:17:56 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 183)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 06:21:39 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 183)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(26): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 06:22:48 --> Undefined property: App\Controllers\Bahan::$makanModel
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 06:30:44 --> Undefined property: App\Controllers\Bahan::$MinumModel
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 06:31:47 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 183)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(30): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 06:32:14 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(30): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 06:32:21 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(30): view('home')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-21 06:35:11 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(30): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:07:16 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 183)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(30): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:11:36 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 187)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(30): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:12:50 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 187)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(30): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:17:14 --> \App\Controllers\bahan::  is not a valid method.
+#0 C:\xampp\htdocs\pertemuan5\system\View\Cell.php(90): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('\\App\\Controller...', ' ')
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Controller...', NULL, 0, 'AppControllersb...')
+#2 C:\xampp\htdocs\pertemuan5\app\Views\home.php(182): view_cell('\\App\\Controller...')
+#3 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#6 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(30): view('home')
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-21 07:18:31 --> \App\Controllers\bahan::  is not a valid method.
+#0 C:\xampp\htdocs\pertemuan5\system\View\Cell.php(90): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('\\App\\Controller...', ' ')
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Controller...', NULL, 0, 'AppControllersb...')
+#2 C:\xampp\htdocs\pertemuan5\app\Views\home.php(182): view_cell('\\App\\Controller...')
+#3 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#6 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(30): view('home', Array)
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-21 07:21:55 --> \App\Controllers\bahan::  is not a valid method.
+#0 C:\xampp\htdocs\pertemuan5\system\View\Cell.php(90): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('\\App\\Controller...', ' ')
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Controller...', NULL, 0, 'AppControllersb...')
+#2 C:\xampp\htdocs\pertemuan5\app\Views\home.php(182): view_cell('\\App\\Controller...')
+#3 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#6 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(31): view('home', Array)
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-21 07:21:57 --> \App\Controllers\bahan::  is not a valid method.
+#0 C:\xampp\htdocs\pertemuan5\system\View\Cell.php(90): CodeIgniter\View\Exceptions\ViewException::forInvalidCellMethod('\\App\\Controller...', ' ')
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Controller...', NULL, 0, 'AppControllersb...')
+#2 C:\xampp\htdocs\pertemuan5\app\Views\home.php(182): view_cell('\\App\\Controller...')
+#3 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#6 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(31): view('home', Array)
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-21 07:24:47 --> Undefined array key "nama_makan"
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(31): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:28:10 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(34): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:28:18 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(34): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:29:23 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(34): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:30:24 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(34): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:30:34 --> Undefined array key "nama_makan"
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 187)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(32): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:32:35 --> Undefined variable $model
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 07:32:56 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(34): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 07:32:58 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(34): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 08:12:07 --> Undefined property: App\Controllers\Pesanan::$makanModel
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-21 08:21:11 --> Undefined property: App\Controllers\Pesanan::$makanModel
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

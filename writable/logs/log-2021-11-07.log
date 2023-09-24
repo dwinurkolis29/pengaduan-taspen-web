@@ -1,0 +1,257 @@
+ERROR - 2021-11-07 04:03:38 --> Table 'gudang.users' doesn't exist
+CRITICAL - 2021-11-07 04:03:38 --> Table 'gudang.users' doesn't exist
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->index()
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-07 04:04:24 --> Table 'gudang.users' doesn't exist
+CRITICAL - 2021-11-07 04:04:24 --> Table 'gudang.users' doesn't exist
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->index()
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-07 04:41:24 --> Class "App\Models\Alat" not found
+#0 C:\xampp\htdocs\pertemuan5\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\pertemuan5\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Alat...')
+#3 C:\xampp\htdocs\pertemuan5\app\Controllers\alat.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Alat...')
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(779): App\Controllers\Alat->__construct()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-07 04:43:02 --> Undefined property: App\Controllers\Alat::$bahanModel
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\alat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Alat->sidebar()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alat))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-07 04:43:47 --> Invalid file: formInputAlat.php
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formInputAlat.p...')
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formInputAlat', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\alat.php(31): view('formInputAlat')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Alat->inputData()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alat))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-07 06:00:11 --> Undefined variable $keterangan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\tampilProperti.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('tampilProperti', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(27): view('tampilProperti', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->sidebar()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 06:02:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+CRITICAL - 2021-11-07 06:02:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id prope...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id prope...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id prope...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PropertiModel.php(37): CodeIgniter\Database\BaseConnection->query('select id prope...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(36): App\Models\PropertiModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 06:03:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+CRITICAL - 2021-11-07 06:03:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id prope...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id prope...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id prope...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PropertiModel.php(37): CodeIgniter\Database\BaseConnection->query('select id prope...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(36): App\Models\PropertiModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 06:06:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+CRITICAL - 2021-11-07 06:06:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id prope...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id prope...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id prope...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PropertiModel.php(37): CodeIgniter\Database\BaseConnection->query('select id prope...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(36): App\Models\PropertiModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 06:09:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+CRITICAL - 2021-11-07 06:09:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id prope...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id prope...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id prope...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PropertiModel.php(37): CodeIgniter\Database\BaseConnection->query('select id prope...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(36): App\Models\PropertiModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 06:11:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+CRITICAL - 2021-11-07 06:11:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id prope...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id prope...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id prope...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PropertiModel.php(37): CodeIgniter\Database\BaseConnection->query('select id prope...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(36): App\Models\PropertiModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 06:14:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+CRITICAL - 2021-11-07 06:14:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id prope...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id prope...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id prope...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PropertiModel.php(37): CodeIgniter\Database\BaseConnection->query('select id prope...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(36): App\Models\PropertiModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 06:16:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+CRITICAL - 2021-11-07 06:16:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'alat order by id desc limit 1' at line 1
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id prope...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id prope...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id prope...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PropertiModel.php(37): CodeIgniter\Database\BaseConnection->query('select id prope...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(36): App\Models\PropertiModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 06:17:01 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-07 06:17:01 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pr...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-07 06:17:07 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-07 06:17:07 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pr...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-07 06:17:37 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-07 06:17:37 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pr...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-07 06:17:42 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-07 06:17:42 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pr...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-11-07 06:17:57 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-11-07 06:17:57 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pr...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->simpanData()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-11-07 06:19:20 --> Undefined variable $harga
+#0 C:\xampp\htdocs\pertemuan5\app\Views\formEditProperti.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditPropert...', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(57): view('formEditPropert...', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->ubahData('4')
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-07 06:19:48 --> Undefined variable $harga
+#0 C:\xampp\htdocs\pertemuan5\app\Views\formEditProperti.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditPropert...', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(57): view('formEditPropert...', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->ubahData('4')
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-07 06:20:00 --> Undefined variable $harga
+#0 C:\xampp\htdocs\pertemuan5\app\Views\formEditProperti.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditPropert...', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\properti.php(57): view('formEditPropert...', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Properti->ubahData('4')
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Properti))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

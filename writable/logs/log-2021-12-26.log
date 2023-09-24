@@ -1,0 +1,675 @@
+CRITICAL - 2021-12-26 08:04:51 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\pertemuan5\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pertemuan5\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pesa...')
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pesa...')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(779): App\Controllers\Pesanan->__construct()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-26 08:05:32 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\pertemuan5\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pertemuan5\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pesa...')
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pesa...')
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(779): App\Controllers\Pesanan->__construct()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-26 08:07:11 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\pertemuan5\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(40): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-26 08:10:46 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-12-26 08:10:46 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id from ...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id from ...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id from ...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id from ...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:11:39 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-12-26 08:11:39 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id from ...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id from ...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id from ...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id from ...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:13:06 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-12-26 08:13:06 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id from ...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id from ...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id from ...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id from ...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:13:57 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-12-26 08:13:57 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id from ...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id from ...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id from ...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id from ...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:14:27 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-12-26 08:14:27 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id from ...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id from ...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id from ...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id from ...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:15:15 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-12-26 08:15:15 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id from ...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id from ...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id from ...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id from ...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:15:40 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-12-26 08:15:40 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id from ...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id from ...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id from ...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id from ...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:19:09 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-12-26 08:19:09 --> Unknown column 'id' in 'field list'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id from ...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id from ...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id from ...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id from ...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:22:19 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 08:22:19 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:24:04 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 08:24:04 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:28:31 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 08:28:31 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:30:43 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 08:30:43 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 08:42:37 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(31): view('home', Array)
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-26 08:44:44 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 08:44:44 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 08:46:07 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 08:46:07 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 08:51:36 --> Undefined variable $r
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 250)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(31): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 08:52:57 --> Undefined variable $r
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 250)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(31): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 09:01:03 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 09:01:03 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 09:08:15 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 09:08:15 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 09:09:54 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 09:09:54 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 09:15:57 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 09:15:57 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 09:19:00 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2021-12-26 09:19:00 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 09:22:44 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 181)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(48): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 09:23:16 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 09:23:16 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-26 09:23:50 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\pertemuan5\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(40): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-26 09:24:41 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pesanan/simpan')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pesanan/simpan')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 09:25:36 --> Undefined array key ""
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-26 09:27:17 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 09:27:17 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-26 09:28:19 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 181)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(48): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 09:28:49 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 181)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(48): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 09:30:24 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 09:30:24 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-26 09:37:30 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 09:37:30 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-26 09:40:06 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 09:40:06 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-26 09:42:51 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\pertemuan5\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-26 09:43:39 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pesanan/simpan')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pesanan/simpan')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-26 09:45:10 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 09:45:10 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-26 09:45:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by id_pesanan desc limit 1' at line 1
+CRITICAL - 2021-12-26 09:45:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by id_pesanan desc limit 1' at line 1
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('select id_pesan...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select id_pesan...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select id_pesan...')
+#3 C:\xampp\htdocs\pertemuan5\app\Models\PesananModel.php(30): CodeIgniter\Database\BaseConnection->query('select id_pesan...')
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): App\Models\PesananModel->newId()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 09:47:06 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 09:47:06 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-26 09:49:21 --> Undefined property: App\Controllers\Pesanan::$minumModel
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 09:51:46 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 181)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(48): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 10:02:25 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 181)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(48): view('home', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 10:05:32 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 10:05:32 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-26 10:09:01 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 10:09:01 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-26 10:12:09 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 10:12:09 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-26 10:13:21 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 10:13:21 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-26 10:14:38 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 10:14:38 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-26 10:15:01 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2021-12-26 10:15:01 --> Duplicate entry '1' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pertemuan5\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pe...')
+#1 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pertemuan5\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pertemuan5\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pertemuan5\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-26 10:17:10 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\pertemuan5\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\pertemuan5\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\pertemuan5\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(41): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-26 10:34:09 --> Undefined array key "nama_makan"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 10:35:54 --> Undefined array key "nama_makan"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 10:36:30 --> Undefined array key "nama_makan"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 18:29:48 --> Too few arguments to function App\Controllers\Pesanan::hapusData(), 0 passed in C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->hapusData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-26 20:15:59 --> Undefined array key "jumlah_makan"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 20:19:00 --> Undefined array key "jumlah_makan"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 20:20:36 --> Unsupported operand types: string * string
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-26 20:33:10 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pesanan/sidebar')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pesanan/sidebar')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 20:33:21 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('pesanan/sidebar')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('pesanan/sidebar')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 20:40:32 --> Undefined array key "jumlah_makan"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->simpan()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,11 @@
+CRITICAL - 2021-12-22 08:01:46 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\login.php(33): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\login->auth()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

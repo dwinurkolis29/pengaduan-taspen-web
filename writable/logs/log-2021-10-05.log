@@ -1,0 +1,240 @@
+CRITICAL - 2021-10-05 16:18:11 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\pertemuan5\app\Controllers\User.php on line 42
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(42): view('formEditData', NULL)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->ubahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:23:52 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 16:23:52 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-05 16:24:56 --> Undefined variable $model
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:25:32 --> Array to string conversion
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:27:47 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:27:49 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-05 16:28:23 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-05 16:28:30 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-05 16:29:28 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-05 16:30:27 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-05 16:30:56 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-05 16:33:01 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('user/simpanData')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('user/simpanData')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:33:01 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('user/ajax.php')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('user/ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:34:18 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('user/simpanData')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('user/simpanData')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:34:18 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\pertemuan5\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('user/ajax.php')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('user/ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:34:49 --> Undefined variable $errors
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:40:59 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\pertemuan5\app\Controllers\User.php on line 45
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(45): view('formEditData', NULL)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->ubahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:42:07 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\pertemuan5\app\Controllers\User.php on line 45
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(45): view('formEditData', NULL)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->ubahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:52:36 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\pertemuan5\app\Controllers\User.php on line 46
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(46): view('formEditData', NULL)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->ubahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:52:37 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanUbahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 16:52:37 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\pertemuan5\app\Controllers\User.php on line 46
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(46): view('formEditData', NULL)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->ubahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 19:30:05 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\pertemuan5\app\Controllers\User.php on line 42
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(42): view('formEditData', NULL)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->ubahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 19:37:08 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 22:56:12 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 22:58:04 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\pertemuan5\app\Controllers\User.php on line 48
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(48): view('formEditData-no...', NULL)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->ubahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 23:02:15 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\pertemuan5\app\Controllers\User.php on line 48
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(48): view('formEditData-no...', NULL)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->ubahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 23:07:13 --> syntax error, unexpected token "."
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('tampilUser', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(16): view('tampilUser', Array)
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->index()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-05 23:15:17 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanUbahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 23:27:32 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanUbahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 23:28:28 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanUbahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 23:28:31 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanUbahData('11')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 23:28:31 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanUbahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 23:28:53 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanUbahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 23:30:09 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanUbahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-05 23:30:39 --> Undefined array key "name"
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\User.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\User->simpanUbahData('ajax.php')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

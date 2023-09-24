@@ -1,0 +1,7 @@
+CRITICAL - 2023-03-13 10:58:19 --> Undefined index: username
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\User.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\User->auth()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

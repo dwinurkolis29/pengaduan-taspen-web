@@ -1,0 +1,163 @@
+CRITICAL - 2021-12-12 02:18:31 --> syntax error, unexpected single-quoted string "<php? echo [", expecting "," or ";"
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('tampilMakan', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(33): view('tampilMakan', Array)
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->sidebar()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-12 02:20:29 --> syntax error, unexpected single-quoted string "<php?[gambar]?>", expecting "," or ";"
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('tampilMakan', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(33): view('tampilMakan', Array)
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->sidebar()
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-12 02:22:40 --> Undefined array key "img/gambar"
+#0 C:\xampp\htdocs\pertemuan5\app\Views\tampilMakan.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('tampilMakan', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(33): view('tampilMakan', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->sidebar()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-12 02:40:46 --> Undefined variable $data
+#0 C:\xampp\htdocs\pertemuan5\app\Views\formEditMakan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditMakan', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(65): view('formEditMakan', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->ubahData('8')
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-12 02:40:57 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\formEditMakan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditMakan', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(65): view('formEditMakan', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->ubahData('8')
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-12 02:41:27 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditMakan', Array, true)
+#3 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(65): view('formEditMakan', Array)
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->ubahData('8')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-12 02:41:50 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditMakan', Array, true)
+#3 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(65): view('formEditMakan', Array)
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->ubahData('8')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-12 02:41:51 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditMakan', Array, true)
+#3 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(65): view('formEditMakan', Array)
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->ubahData('8')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-12 02:42:58 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditMakan', Array, true)
+#3 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(65): view('formEditMakan', Array)
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->ubahData('8')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-12 02:45:25 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('formEditMakan', Array, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Controllers\makan.php(65): view('formEditMakan', Array)
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->ubahData('8')
+#4 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-12 02:49:49 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->simpanUbahData('3')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-12 02:52:16 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Makan->simpanUbahData('3')
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makan))
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-12 03:19:27 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\tampilMinum.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('tampilMinum', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\minum.php(33): view('tampilMinum', Array)
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Minum->sidebar()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Minum))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-12 03:20:44 --> Undefined variable $newId
+#0 C:\xampp\htdocs\pertemuan5\app\Controllers\minum.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Minum->simpanUbahData('1')
+#2 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Minum))
+#3 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-12 08:42:54 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\pertemuan5\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\pertemuan5\system\Debug\Toolbar.php(413): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\Debug\Toolbar.php(375): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\pertemuan5\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\pertemuan5\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-12 09:38:16 --> Invalid file: layou3/sidebar.php
+#0 C:\xampp\htdocs\pertemuan5\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layou3/sidebar....')
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(432): CodeIgniter\View\View->render('layou3/sidebar....', NULL, true)
+#2 C:\xampp\htdocs\pertemuan5\app\Views\tampilPesanan.php(10): CodeIgniter\View\View->include('layou3/sidebar....')
+#3 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('tampilPesanan', Array, true)
+#6 C:\xampp\htdocs\pertemuan5\app\Controllers\pesanan.php(33): view('tampilPesanan', Array)
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Pesanan->sidebar()
+#8 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#9 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-12 09:54:50 --> Undefined variable $makan
+#0 C:\xampp\htdocs\pertemuan5\app\Views\home.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\pertemuan5\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pertemuan5\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pertemuan5\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pertemuan5\app\Controllers\bahan.php(21): view('home')
+#5 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(802): App\Controllers\Bahan->home()
+#6 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahan))
+#7 C:\xampp\htdocs\pertemuan5\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pertemuan5\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

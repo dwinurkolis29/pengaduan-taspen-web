@@ -1,0 +1,14 @@
+ERROR - 2022-10-19 01:01:54 --> Cannot delete or update a parent row: a foreign key constraint fails (`pengaduan`.`pengaduan`, CONSTRAINT `pengaduan_ibfk_1` FOREIGN KEY (`id_j`) REFERENCES `jenis_p` (`id_j`))
+ERROR - 2022-10-19 01:03:12 --> Cannot delete or update a parent row: a foreign key constraint fails (`pengaduan`.`pengaduan`, CONSTRAINT `pengaduan_ibfk_1` FOREIGN KEY (`id_j`) REFERENCES `jenis_p` (`id_j`))
+ERROR - 2022-10-19 01:03:15 --> Cannot delete or update a parent row: a foreign key constraint fails (`pengaduan`.`pengaduan`, CONSTRAINT `pengaduan_ibfk_1` FOREIGN KEY (`id_j`) REFERENCES `jenis_p` (`id_j`))
+CRITICAL - 2022-10-19 08:04:35 --> Undefined variable: golongan
+#0 C:\xampp\htdocs\pengaduan\app\Views\register.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\pengaduan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengaduan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('register', Array, true)
+#4 C:\xampp\htdocs\pengaduan\app\Controllers\User.php(63): view('register', Array)
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\User->simpanData()
+#6 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

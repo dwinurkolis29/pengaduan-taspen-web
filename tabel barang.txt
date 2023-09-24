@@ -1,0 +1,17 @@
+ <?php 
+                    foreach($users as $barang){
+                        
+                        echo "
+                        <tr>
+                            <td>".$barang['kode']."</td>
+                            <td>".$barang['nama']."</td>
+                            <td>".$barang['jenis']."</td>
+                            <td>".$barang['stok']."</td>
+                            <td>".$barang['harga']."</td>
+                            <td>
+                                <a href='".base_url()."/user/ubahData/".$barang['id']."'>Ubah</>		| 
+                                <a href='".base_url()."/user/hapusData/".$barang['id']."'>Hapus</>
+                            </td></tr>
+                        ";
+                    }
+                    ?>

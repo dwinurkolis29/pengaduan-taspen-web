@@ -1,0 +1,472 @@
+ERROR - 2022-10-17 10:43:40 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:43:40 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:45:54 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:45:54 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:45:55 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:45:55 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:43 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:43 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:45 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:45 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:46 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:46 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:46 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:46 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:47 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:47 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:48 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:48 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:48 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:48 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:48 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:48 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:49 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:49 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:46:49 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:46:49 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:47:23 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:47:23 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-17 10:47:28 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 10:47:28 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-17 10:48:09 --> Invalid file: tampilGolongan.php
+#0 C:\xampp\htdocs\pengaduan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampilGolongan....')
+#1 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('tampilGolongan', Array, true)
+#2 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(16): view('tampilGolongan', Array)
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#4 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-17 10:49:50 --> Invalid file: tampilGolongan.php
+#0 C:\xampp\htdocs\pengaduan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampilGolongan....')
+#1 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('tampilGolongan', Array, true)
+#2 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(16): view('tampilGolongan', Array)
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#4 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-17 10:49:51 --> Invalid file: tampilGolongan.php
+#0 C:\xampp\htdocs\pengaduan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampilGolongan....')
+#1 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('tampilGolongan', Array, true)
+#2 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(16): view('tampilGolongan', Array)
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#4 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-17 18:32:43 --> Invalid file: formInputGolongan.php
+#0 C:\xampp\htdocs\pengaduan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formInputGolong...')
+#1 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('formInputGolong...', Array, true)
+#2 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(31): view('formInputGolong...')
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->inputData()
+#4 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-17 18:34:54 --> Invalid file: formInputGolongan.php
+#0 C:\xampp\htdocs\pengaduan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formInputGolong...')
+#1 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('formInputGolong...', Array, true)
+#2 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(31): view('formInputGolong...')
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->inputData()
+#4 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-17 18:35:34 --> Invalid file: formInputGolongan.php
+#0 C:\xampp\htdocs\pengaduan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formInputGolong...')
+#1 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('formInputGolong...', Array, true)
+#2 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(31): view('formInputGolong...')
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->inputData()
+#4 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-10-17 18:36:30 --> Unknown column 'golongan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 18:36:30 --> Unknown column 'golongan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->index()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-17 18:37:37 --> Invalid file: formInputGolongan.php
+#0 C:\xampp\htdocs\pengaduan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formInputGolong...')
+#1 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('formInputGolong...', Array, true)
+#2 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(31): view('formInputGolong...')
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->inputData()
+#4 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-17 18:39:40 --> Invalid file: formEditGolongan.php
+#0 C:\xampp\htdocs\pengaduan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formEditGolonga...')
+#1 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('formEditGolonga...', Array, true)
+#2 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(55): view('formEditGolonga...', Array)
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->ubahData('2')
+#4 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-10-17 18:53:45 --> Unknown column 'jenis_p.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 18:53:45 --> Unknown column 'jenis_p.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\Jenis.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Jenis->sidebar()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-17 18:54:22 --> Undefined variable: jenis
+#0 C:\xampp\htdocs\pengaduan\app\Views\jenis\tampilJenis.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\pengaduan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengaduan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('jenis/tampilJen...', Array, true)
+#4 C:\xampp\htdocs\pengaduan\app\Controllers\Jenis.php(27): view('jenis/tampilJen...', Array)
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Jenis->sidebar()
+#6 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-17 18:55:50 --> Undefined index: nama
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\Jenis.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Jenis->simpanData()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-17 18:57:33 --> Undefined index: nama
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\Jenis.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Jenis->simpanUbahData('4')
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-10-17 19:13:24 --> Unknown column 'pengaduan.deleted_at' in 'where clause'
+CRITICAL - 2022-10-17 19:13:24 --> Unknown column 'pengaduan.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\pengaduan\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pengaduan\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pengaduan\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pengaduan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pengaduan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pengaduan\app\Controllers\pengaduan.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Pengaduan->sidebar()
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#9 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-17 19:14:05 --> Invalid file: pengaduan/tampilPengaduan.php
+#0 C:\xampp\htdocs\pengaduan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pengaduan/tampi...')
+#1 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('pengaduan/tampi...', Array, true)
+#2 C:\xampp\htdocs\pengaduan\app\Controllers\pengaduan.php(27): view('pengaduan/tampi...', Array)
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Pengaduan->sidebar()
+#4 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-17 19:29:47 --> Undefined index: notas
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\pengaduan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Pengaduan->simpanUbahData('1')
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-17 19:31:05 --> Undefined index: balasan
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\pengaduan.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Pengaduan->simpanUbahData('1')
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-17 19:31:49 --> Undefined index: balasan
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\pengaduan.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Pengaduan->simpanUbahData('1')
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengaduan))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-17 19:54:42 --> Use of undefined constant custom - assumed 'custom' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(779): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 779, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 19:54:49 --> Use of undefined constant custom - assumed 'custom' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(779): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 779, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 19:54:50 --> Use of undefined constant custom - assumed 'custom' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(779): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 779, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 19:54:51 --> Use of undefined constant custom - assumed 'custom' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(779): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 779, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 19:54:52 --> Use of undefined constant custom - assumed 'custom' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(779): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 779, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 19:54:55 --> Use of undefined constant custom - assumed 'custom' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(779): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 779, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 19:55:01 --> Use of undefined constant custom - assumed 'custom' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(779): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 779, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 19:55:59 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\pengaduan\app\Helpers\custom_helper.php(4): CodeIgniter\Database\BaseConnection->table('')
+#1 C:\xampp\htdocs\pengaduan\app\Views\customer.php(73): countData('')
+#2 C:\xampp\htdocs\pengaduan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pengaduan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('customer', Array, true)
+#5 C:\xampp\htdocs\pengaduan\app\Controllers\Golongan.php(21): view('customer')
+#6 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Golongan->customer()
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Golongan))
+#8 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-17 21:53:57 --> Undefined variable: pengaduan
+#0 C:\xampp\htdocs\pengaduan\app\Views\home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\pengaduan\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengaduan\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengaduan\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\pengaduan\app\Controllers\Home.php(16): view('home')
+#5 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-17 23:50:14 --> Undefined index: password
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\User.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\User->auth()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-17 23:50:34 --> Undefined index: password
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\User.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\User->auth()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-17 23:50:41 --> Call to undefined method App\Models\UserModel::getRole
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\User.php(60): CodeIgniter\Model->__call('getRole', Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\User->auth()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-17 23:51:34 --> Call to undefined method App\Models\UserModel::getRole
+#0 C:\xampp\htdocs\pengaduan\app\Controllers\User.php(60): CodeIgniter\Model->__call('getRole', Array)
+#1 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(802): App\Controllers\User->auth()
+#2 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\pengaduan\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengaduan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
